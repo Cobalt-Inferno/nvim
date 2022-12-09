@@ -5,6 +5,7 @@ require('mason-lspconfig').setup {
   ensure_installed = { -- I should add a feature to install via file type
     "sumneko_lua",
     "pyright",
+    "bashls",
     "tsserver"
   },
   automatic_installation = true
