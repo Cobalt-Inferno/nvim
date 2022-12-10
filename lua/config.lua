@@ -7,4 +7,6 @@ require('configuration.luasnip')
 require('configuration.treesitter')
 require('configuration.noice')
 require('configuration.theme')
+require('configuration.autopairs')
 require('commands.lsp_override')
+
