@@ -2,6 +2,7 @@
 
 require('packer').startup(function()
     use 'wbthomason/packer.nvim'
+    use 'lukas-reineke/indent-blankline.nvim'
     use 'nvim-treesitter/nvim-treesitter'
     use 'lewis6991/gitsigns.nvim'
     use 'nvim-tree/nvim-tree.lua'
