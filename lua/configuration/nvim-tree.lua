@@ -5,8 +5,7 @@ require('nvim-tree').setup {
         adaptive_size = true,
         mappings = {
             list = {
-                { key = "k", action = "dir_up" },
-                { key = "j", action = "dir_down" },
+                { key = "t", action = "create" },
             },
         },
     },
@@ -17,3 +16,5 @@ require('nvim-tree').setup {
         dotfiles = true,
     },
 }
+
+
