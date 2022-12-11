@@ -3,7 +3,7 @@
 vim.api.nvim_create_user_command (
   'IvimInstallThemes',
   function ()
-    require ('packer').startup(function ()
+    require ('packer').setup(function ()
         use 'nyoom-engineering/oxocarbon.nvim'
         use 'navarasu/onedark.nvim'
         use 'folke/tokyonight.nvim'

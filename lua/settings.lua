@@ -4,14 +4,15 @@ local opt = vim.opt
 opt.pumblend = 17 -- Floating windows transparency
 opt.wildmode = "longest:full" -- autocomplete opts
 opt.wildoptions = "pum" -- autocomplete opts
+opt.termguicolors = true
 opt.wildignore = "Carg.lock" -- Ignore fails
 opt.wildignore:append { "*.o", "*~" }
 opt.showmatch = true
-opt.tabstop = 2 -- tab width
-opt.shiftwidth = 2 -- '>>' width
-opt.softtabstop = 2
+opt.tabstop = 4 -- tab width
+opt.shiftwidth = 4 -- '>>' width
+opt.softtabstop = 4
 opt.expandtab = true -- space instead of tab
-opt.smartindent = true
+opt.autoindent = true
 opt.wrap = true -- do not break lines
 opt.backup = false
 opt.swapfile = false
@@ -29,7 +30,6 @@ opt.cursorline = true
 opt.clipboard = "unnamedplus"
 opt.ignorecase = true
 opt.smartcase = true -- depends on ignorecase
-opt.breakindent = true
 opt.showbreak = ">>>"
 opt.linebreak = true
 opt.belloff = "all"
@@ -42,3 +42,7 @@ opt.foldlevelstart = 99
 opt.foldenable = false
 
 opt.spelllang = 'en_us'
+
+
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1

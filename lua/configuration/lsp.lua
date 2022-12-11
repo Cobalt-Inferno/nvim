@@ -6,7 +6,6 @@ require('mason-lspconfig').setup {
     "sumneko_lua",
     "pyright",
     "kotlin_language_server",
-    "elixirls",
     "bashls",
     "tsserver"
   },

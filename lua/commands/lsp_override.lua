@@ -1,7 +1,7 @@
 
 
 vim.api.nvim_create_user_command (
-  'IvimInstallAll',
+  'IvimInstallLsp',
   function ()
     require ('mason-lspconfig').setup {
       ensure_installed = {

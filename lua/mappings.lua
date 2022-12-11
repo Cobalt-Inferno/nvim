@@ -11,3 +11,9 @@ local reload = function()
 end
 
 map('n', '<leader>ff', ':lua reload()<CR>', {noremap=true})
+map('n', '<C-j>', '<C-w><C-j>', {noremap=true})
+map('n', '<C-h>', '<C-w><C-h>', {noremap=true})
+map('n', '<C-k>', '<C-w><C-k>', {noremap=true})
+map('n', '<C-l>', '<C-w><C-l>', {noremap=true})
+
+
