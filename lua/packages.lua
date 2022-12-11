@@ -4,7 +4,7 @@ require('packer').startup(function()
     use 'wbthomason/packer.nvim'
     use 'nvim-treesitter/nvim-treesitter'
     use 'lewis6991/gitsigns.nvim'
-    use 'nvim-tree/nvim-tree'
+    use 'nvim-tree/nvim-tree.lua'
     use 'williamboman/mason.nvim'
     use 'williamboman/mason-lspconfig.nvim'
     use 'neovim/nvim-lspconfig'
