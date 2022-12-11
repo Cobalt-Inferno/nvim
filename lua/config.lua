@@ -9,4 +9,4 @@ require('configuration.noice')
 require('configuration.theme')
 require('configuration.autopairs')
 require('commands.lsp_override')
-
+require('commands.themes')
