@@ -1,4 +1,3 @@
-
 require('packages')
 if pcall(require, 'packer') then
   vim.cmd('PackerInstall')

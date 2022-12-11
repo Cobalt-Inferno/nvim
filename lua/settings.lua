@@ -46,3 +46,8 @@ opt.spelllang = 'en_us'
 
 vim.g.loaded_netrw = 1
 vim.g.loaded_netrwPlugin = 1
+
+
+
+-- colorscheme
+
