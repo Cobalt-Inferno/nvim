@@ -15,9 +15,11 @@ require('packer').startup(function()
     use 'MunifTanjim/nui.nvim'
     use 'rcarriga/nvim-notify'
     use "hrsh7th/nvim-cmp"
+    use 'nvim-lua/plenary.nvim'
     use "hrsh7th/cmp-nvim-lsp"
     use "L3MON4D3/LuaSnip"
     use "saadparwaiz1/cmp_luasnip"
+    use 'jose-elias-alvarez/null-ls.nvim'
     use "windwp/nvim-autopairs"
     -- Themes
     use 'nyoom-engineering/oxocarbon.nvim'
