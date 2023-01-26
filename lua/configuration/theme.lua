@@ -1,7 +1,7 @@
 
 require('onedark').setup {
-	style = 'cool'
+	style = 'dark'
 }
 
 
-vim.cmd('colorscheme oxocarbon')
+vim.cmd('colorscheme onedark')

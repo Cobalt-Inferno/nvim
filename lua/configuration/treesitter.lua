@@ -42,6 +42,7 @@ require('nvim-treesitter.configs').setup {
     'vim',
     'vue',
     'yaml',
+    'haskell',
     'zig'
   },
   sync_install = false,
@@ -50,6 +51,10 @@ require('nvim-treesitter.configs').setup {
     enable = true
   },
   indent = {
-    enable = true -- This is experimental, though we'll try it.
+    enable = true, -- This is experimental, though we'll try it.
+    disable = {
+            'python',
+            'haskell'
+        }
   }
 }

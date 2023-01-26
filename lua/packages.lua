@@ -2,6 +2,7 @@
 
 require('packer').startup(function()
     use 'wbthomason/packer.nvim'
+    use 'Exafunction/codeium.vim'
     use 'lukas-reineke/indent-blankline.nvim'
     use 'nvim-treesitter/nvim-treesitter'
     use 'lewis6991/gitsigns.nvim'
@@ -21,6 +22,8 @@ require('packer').startup(function()
     use "saadparwaiz1/cmp_luasnip"
     use 'jose-elias-alvarez/null-ls.nvim'
     use "windwp/nvim-autopairs"
+    use 'alx741/vim-hindent'
+    use 'MrcJkb/haskell-tools.nvim'
     -- Themes
     use 'nyoom-engineering/oxocarbon.nvim'
     use 'navarasu/onedark.nvim'
